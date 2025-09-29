@@ -1,0 +1,110 @@
+body {
+    background-color: #f8f9fa;
+    color: #242b44;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, .display-4 {
+    color: #04346c;
+    font-weight: 700;
+}
+
+p, span, label {
+    color: #242b44;
+}
+
+a {
+    color: #c81033;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #dc8494;
+    text-decoration: underline;
+}
+
+.btn {
+    border-radius: 20px;
+    padding: 8px 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #627baa;
+    border: 2px solid #627baa;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #04346c;
+    border-color: #04346c;
+}
+
+.btn-success {
+    background-color: #04346c;
+    border: 2px solid #04346c;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #627baa;
+    border-color: #627baa;
+}
+
+.btn-danger {
+    background-color: #c81033;
+    border: 2px solid #c81033;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #dc8494;
+    border-color: #dc8494;
+}
+
+.card {
+    border: 1.5px solid #a3b2c7;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(67, 86, 107, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-weight: 700;
+    color: #c81033;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #242b44;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.card-text strong {
+    color: #04346c;
+}
+
+input, select, textarea {
+    border: 1.5px solid #a3b2c7;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+    color: #242b44;
+    transition: border-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #04346c;
+    outline: none;
+    box-shadow: 0 0 8px rgba(4, 52, 108, 0.3);
+}
